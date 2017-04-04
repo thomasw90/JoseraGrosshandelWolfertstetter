@@ -13,13 +13,13 @@
         android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         app:srcCompat="@drawable/josera_logo" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="3"
         android:background="@color/meinHintergrund"
         android:gravity="center_horizontal"
         android:orientation="horizontal">
@@ -29,21 +29,21 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
-            android:background="@drawable/daten" />
+            android:background="@drawable/btn_daten_selector" />
 
         <Button
             android:id="@+id/button7"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
-            android:background="@drawable/bestellen" />
+            android:background="@drawable/btn_bestellen_selector" />
 
         <Button
             android:id="@+id/button6"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
-            android:background="@drawable/bestellungen" />
+            android:background="@drawable/btn_bestellungen_selector" />
     </LinearLayout>
 
 </LinearLayout>
