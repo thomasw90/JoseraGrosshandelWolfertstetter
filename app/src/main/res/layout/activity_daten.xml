@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/meinHintergrund"
+    tools:context="com.example.thomas.joseragrosshandelwolfertstetter.daten"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ueberschrift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:text="@string/daten_ueberschrift"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textVorname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ueberschrift"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Vorname:"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/eingabeVorname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textVorname"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#FFFFFF"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:theme="@android:style/Theme.Holo" />
+
+    <TextView
+        android:id="@+id/textNachname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eingabeVorname"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Nachname:"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/eingabeNachname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textVorname"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#FFFFFF"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:theme="@android:style/Theme.Holo" />
+
+    <TextView
+        android:id="@+id/textStrasse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eingabeVorname"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Straße:"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/eingabeStrasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textVorname"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#FFFFFF"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:theme="@android:style/Theme.Holo" />
+
+    <TextView
+        android:id="@+id/textPlz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eingabeVorname"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Plz:"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/eingabePlz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textVorname"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#FFFFFF"
+        android:inputType="numberSigned"
+        android:textColor="#FFFFFF"
+        android:theme="@android:style/Theme.Holo" />
+
+    <TextView
+        android:id="@+id/textTelNr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eingabeVorname"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Tel-Nr."
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/eingabeTelNr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textVorname"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#FFFFFF"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        android:theme="@android:style/Theme.Holo" />
+
+    <Button
+        android:id="@+id/buttonZurueck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#fdcb15"
+        android:text="Zurück"
+        android:textColor="#4e1208"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonSpeichern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#fdcb15"
+        android:text="Speichern"
+        android:textColor="#4e1208"
+        android:textSize="20dp" />
+
+</LinearLayout>
