@@ -2,6 +2,7 @@ package com.example.thomas.joseragrosshandelwolfertstetter;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.content.SharedPreferences;
@@ -22,6 +23,9 @@ public class Daten extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daten);
+
+        setTitle("Daten ändern");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         vorname = (TextView) findViewById(R.id.eingabeVorname);
         nachname = (TextView) findViewById(R.id.eingabeNachname);
@@ -74,5 +78,15 @@ public class Daten extends AppCompatActivity {
         strasse.setText(pref.getString("strasse", ""));
         plz.setText(pref.getString("plz", ""));
         telNr.setText(pref.getString("telnr", ""));
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+
+        if (id==android.R.id.home) {
+            finish();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

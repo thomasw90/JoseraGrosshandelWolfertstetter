@@ -5,6 +5,41 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    // JOSERA RIND
+    <string name="pro_spezial">
+        <b>JOSERA Pro Spezial</b> ist ein Mineralfuttermittel für Milch- und Mutterkühe zur Ergänzung von Grund- und Mischrationen.
+    </string>
+
+    <string name="frumi_plus">
+        <b>JOSERA Frumi Plus</b> ist ein sehr hochwertiges Mineralfutter für Betriebe mit hohen Leistungen in der Laktation.
+    </string>
+
+    <string name="dairypilot">
+        <b>DairyPilot</b> - Das innovative Ergänzungsfuttermittel mit FlavoVital, B-Vitaminen und Lebendhefe sowie einem besonders breiten Wirkungsspektrum.
+    </string>
+
+    <string name="lacto_plus">
+        <b>JOSERA Lacto Plus</b> - Keragen Longlife unterstützt höchste Leistungen der Kühe in der Laktation dank hochwertiger Komponenten.
+    </string>
+
+    // JOSERA SCHWEIN
+    <string name="sauenglueck">
+        <b>JOSERA Sauenglück</b> ist unsere Komplettlösung, um sowohl tragende Sauen als auch Jungsauen optimal zu versorgen.
+    </string>
+
+    <string name="sauenprofi">
+        <b>JOSERA Sauen-Profi</b> ist unsere günstige Alternative für tragende und säugende Sauen bei guten Leistungen für eine optimale Versorgung.
+    </string>
+
+    // JOSERA PFERD
+    <string name="mash_rapid">
+        <b>Mash Rapid</b> - Die wohltuende Mischung für eine optimale Verdauung.
+    </string>
+
+    // JOSERA HEIMTIER
+    <string name="kids">
+        <b>JOSERA Kids</b> ist das Aufzuchtfutter für alle jungen Helden mittlerer und großer Rassen, die hoch hinaus wollen.
+    </string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

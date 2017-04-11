@@ -1,15 +1,70 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.thomas.joseragrosshandelwolfertstetter.Fragmente.SchweinFragment"
+    android:background="@color/windowBackground"
     android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_marginTop="10dp">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/windowBackground">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    style="@style/artikel_image"
+                    app:srcCompat="@mipmap/sauenglueck" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    style="@style/artikel_text"
+                    android:text="@string/sauenglueck" />
+
+                <Button
+                    android:id="@+id/button1"
+                    style="@style/artikel_button" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/windowBackground">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    style="@style/artikel_image"
+                    app:srcCompat="@mipmap/sauenprofi" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/artikel_text"
+                    android:text="@string/sauenprofi" />
+
+                <Button
+                    android:id="@+id/button2"
+                    style="@style/artikel_button" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

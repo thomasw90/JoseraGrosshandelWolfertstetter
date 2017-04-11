@@ -6,17 +6,38 @@
         <item name="colorPrimary">#4A4A4A</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+    <style name="TierLogos">
+        <item name="colorPrimary">#3D3D3D</item>
+        <item name="tabIndicatorHeight">6dp</item>
+    </style>
 
-        <item name="colorPrimary">@color/colorPrimary</item>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">#4A4A4A</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="artikel_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="artikel_button">
+        <item name="android:background">@mipmap/vorwaerts</item>
+        <item name="android:layout_height">145dp</item>
+        <item name="android:layout_width">100dp</item>
+    </style>
+
+    <style name="artikel_image">
+        <item name="android:layout_height">145dp</item>
+        <item name="android:layout_width">100dp</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

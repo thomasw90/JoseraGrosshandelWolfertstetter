@@ -1,14 +1,127 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.thomas.joseragrosshandelwolfertstetter.Fragmente.RindFragment"
-    android:orientation="vertical">
+    android:background="@color/windowBackground"
+    android:orientation="vertical"
+    tools:context="com.example.thomas.joseragrosshandelwolfertstetter.Fragmente.RindFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/windowBackground">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    style="@style/artikel_image"
+                    app:srcCompat="@mipmap/pro_spezial" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    style="@style/artikel_text"
+                    android:text="@string/pro_spezial" />
+
+                <Button
+                    android:id="@+id/button1"
+                    style="@style/artikel_button" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/windowBackground">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    style="@style/artikel_image"
+                    app:srcCompat="@mipmap/frumi_plus" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/artikel_text"
+                    android:text="@string/frumi_plus" />
+
+                <Button
+                    android:id="@+id/button2"
+                    style="@style/artikel_button" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/windowBackground">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    style="@style/artikel_image"
+                    app:srcCompat="@mipmap/dairypilot" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/artikel_text"
+                    android:text="@string/dairypilot" />
+
+                <Button
+                    android:id="@+id/button3"
+                    style="@style/artikel_button" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/windowBackground">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    style="@style/artikel_image"
+                    app:srcCompat="@mipmap/lacto_plus" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/artikel_text"
+                    android:text="@string/lacto_plus" />
+
+                <Button
+                    android:id="@+id/button4"
+                    style="@style/artikel_button" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

@@ -38,10 +38,10 @@ public class Artikel extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_artikel);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        setTitle("Artikel");
+        //toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
 
+        setTitle("Artikel");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
