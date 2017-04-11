@@ -36,7 +36,7 @@
                 android:background="@drawable/btn_daten_selector" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/artikel"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="5dp"

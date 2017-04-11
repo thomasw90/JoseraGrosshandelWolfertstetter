@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".daten"></activity>
+        <activity android:name=".Daten" />
+        <activity
+            android:name=".Artikel"
+            android:label="@string/title_activity_artikel"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -8,7 +8,7 @@ import android.content.SharedPreferences;
 import android.widget.TextView;
 
 
-public class daten extends AppCompatActivity {
+public class Daten extends AppCompatActivity {
     private TextView vorname;
     private TextView nachname;
     private TextView strasse;

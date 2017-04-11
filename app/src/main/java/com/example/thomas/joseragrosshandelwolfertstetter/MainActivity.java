@@ -21,11 +21,26 @@ public class MainActivity extends AppCompatActivity {
                 starteDatenAendern();
             }
         });
+
+        Button artikelBtn = (Button) findViewById(R.id.artikel);
+        artikelBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                starteArtikel();
+            }
+        });
     }
 
     private void starteDatenAendern()
     {
-        Intent intent = new Intent(this, daten.class);
+        Intent intent = new Intent(this, Daten.class);
+        startActivity(intent);
+    }
+
+    private void starteArtikel()
+    {
+        Intent intent = new Intent(this, Artikel.class);
         startActivity(intent);
     }
 }
