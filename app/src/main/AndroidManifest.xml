@@ -17,10 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Daten" />
-        <activity
-            android:name=".Artikel"
-            android:label="@string/title_activity_artikel"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Artikel"></activity>
     </application>
 
 </manifest>
