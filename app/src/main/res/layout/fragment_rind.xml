@@ -18,11 +18,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/windowBackground">
-
+            <LinearLayout style="@style/linearlayout_style">
                 <ImageView
                     android:id="@+id/imageView1"
                     style="@style/artikel_image"
@@ -38,14 +34,9 @@
                     style="@style/artikel_button" />
             </LinearLayout>
 
-            <View
-                style="@style/abstandslinie"/>
+            <View style="@style/abstandslinie"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/windowBackground">
-
+            <LinearLayout style="@style/linearlayout_style">
                 <ImageView
                     android:id="@+id/imageView2"
                     style="@style/artikel_image"
@@ -61,14 +52,9 @@
                     style="@style/artikel_button" />
             </LinearLayout>
 
-            <View
-                style="@style/abstandslinie"/>
+            <View style="@style/abstandslinie"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/windowBackground">
-
+            <LinearLayout style="@style/linearlayout_style">
                 <ImageView
                     android:id="@+id/imageView3"
                     style="@style/artikel_image"
@@ -84,14 +70,9 @@
                     style="@style/artikel_button" />
             </LinearLayout>
 
-            <View
-                style="@style/abstandslinie"/>
+            <View style="@style/abstandslinie"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/windowBackground">
-
+            <LinearLayout style="@style/linearlayout_style">
                 <ImageView
                     android:id="@+id/imageView4"
                     style="@style/artikel_image"
