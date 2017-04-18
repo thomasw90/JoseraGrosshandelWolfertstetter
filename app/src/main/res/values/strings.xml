@@ -1,4 +1,15 @@
 <resources>
+
+    <string-array name="josera_artikel">
+        <item> </item>
+        <item>Pro Spezial</item>
+        <item>Frumi Plus</item>
+        <item>DairyPilot</item>
+        <item>Lacto Plus</item>
+        <item>Sauenglück</item>
+        <item>Sauen-Profi</item>
+    </string-array>
+
     <string name="app_name">Josera Großhandel Wolfertstetter</string>
     <string name="daten_ueberschrift">Persönliche Daten eingeben, damit die Bestellung geliefert werden kann. Telefonnummer wird nur für Rückfragen benötigt</string>
     <string name="title_activity_artikel">Artikel</string>

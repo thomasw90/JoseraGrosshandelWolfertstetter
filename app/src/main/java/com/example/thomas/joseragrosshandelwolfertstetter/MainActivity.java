@@ -30,6 +30,15 @@ public class MainActivity extends AppCompatActivity {
                 starteArtikel();
             }
         });
+
+        Button bestellenBtn = (Button) findViewById(R.id.bestellen);
+        bestellenBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                starteBestellen();
+            }
+        });
     }
 
     private void starteDatenAendern()
@@ -41,6 +50,12 @@ public class MainActivity extends AppCompatActivity {
     private void starteArtikel()
     {
         Intent intent = new Intent(this, Artikel.class);
+        startActivity(intent);
+    }
+
+    private void starteBestellen()
+    {
+        Intent intent = new Intent(this, Bestellen.class);
         startActivity(intent);
     }
 }
