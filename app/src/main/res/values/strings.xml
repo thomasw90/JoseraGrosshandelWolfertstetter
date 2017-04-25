@@ -21,8 +21,26 @@
         <b>JOSERA Pro Spezial</b> ist ein Mineralfuttermittel für Milch- und Mutterkühe zur Ergänzung von Grund- und Mischrationen.
     </string>
 
+    <string name="pro_spezial_lang">
+      <![CDATA[
+        <p class="bodytext"><strong>JOSERA Pro Spezial</strong> ist ein Mineralfuttermittel f&uuml;r Milch- und Mutterk&uuml;he zur Erg&auml;nzung von Grund- und Mischrationen.<br /><br />Durch hochverwertbare Mineralstoffkomponenten, optimierte Vitamingehalte und eine ausgewogene Spurenelementausstattung leistet <strong>JOSERA Pro Spezial</strong> einen wichtigen Beitrag zu einer leistungsorientierten F&uuml;tterung.<br /><br />Eine regelm&auml;&szlig;ige Verabreichung von <strong>JOSERA Pro Spezial</strong> im Rahmen der F&uuml;tterung verhindert einen Mineral- und Wirkstoffmangel und sichert so:</p>
+        <ul>
+        <li>Eine gesunde Entwicklung der Jungrinder,</li>
+        <li>die volle Leistungsbereitschaft in der Laktation,</li>
+        <li>Fruchtbarkeit und Gesundheit.</li>
+        </ul>
+        <p class="bodytext"><strong>Gebindegr&ouml;&szlig;e: 25 kg</strong></p>
+      ]]>
+    </string>
+
     <string name="frumi_plus">
         <b>JOSERA Frumi Plus</b> ist ein sehr hochwertiges Mineralfutter für Betriebe mit hohen Leistungen in der Laktation.
+    </string>
+
+    <string name="frumi_plus_lang">
+      <![CDATA[
+        <p class="bodytext"><strong>JOSERA Frumi Plus</strong> ist ein sehr hochwertiges Mineralfutter f&uuml;r Betriebe mit hohen Leistungen in der Laktation. Frumi Plus eignet sich vor allem zur F&uuml;tterung in gemischten Rationen mit einem ausgeglichenen Calcium-Phosphor-Verh&auml;ltnis (Mais- und Grassilage).<br /><br />H&ouml;chstverwertbare Mineralstoffkomponenten sowie B- und E-Vitamine sorgen f&uuml;r st&ouml;rungsfreie Verdauungs- und Stoffwechselabl&auml;ufe sowie f&uuml;r eine hohe Grundfutteraufnahme. Wertvolles Natriumbicarbonat sch&uuml;tzt Ihre Milchk&uuml;he zudem vor einer Pansen&uuml;bers&auml;uerung. Gesunde Klauen und Euter sowie eine gute Fruchtbarkeit sind das Resultat im Hinblick auf Langlebigkeit und hohes Leistungsniveau Ihrer Tiere.<br /><br /><strong>Gebindegr&ouml;&szlig;e: 25 kg</strong></p>
+      ]]>
     </string>
 
     <string name="dairypilot">

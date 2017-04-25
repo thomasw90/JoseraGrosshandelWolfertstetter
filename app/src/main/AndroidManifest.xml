@@ -18,7 +18,10 @@
         </activity>
         <activity android:name=".Daten" />
         <activity android:name=".Artikel" />
-        <activity android:name=".Bestellen"></activity>
+        <activity android:name=".Bestellen" />
+        <activity android:name=".pro_spezial" />
+        <activity android:name=".frumi_plus" />
+        <activity android:name=".test"></activity>
     </application>
 
 </manifest>

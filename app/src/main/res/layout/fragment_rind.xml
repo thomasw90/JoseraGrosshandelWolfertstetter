@@ -30,7 +30,7 @@
                     android:text="@string/pro_spezial" />
 
                 <Button
-                    android:id="@+id/button1"
+                    android:id="@+id/button_pro_spezial"
                     style="@style/artikel_button" />
             </LinearLayout>
 
@@ -48,7 +48,7 @@
                     android:text="@string/frumi_plus" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/button_frumi_plus"
                     style="@style/artikel_button" />
             </LinearLayout>
 

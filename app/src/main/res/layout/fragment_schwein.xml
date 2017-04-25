@@ -1,12 +1,11 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.thomas.joseragrosshandelwolfertstetter.Fragmente.SchweinFragment"
     android:background="@color/windowBackground"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.example.thomas.joseragrosshandelwolfertstetter.Fragmente.SchweinFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -19,6 +18,7 @@
             android:orientation="vertical">
 
             <LinearLayout style="@style/linearlayout_style">
+
                 <ImageView
                     android:id="@+id/imageView1"
                     style="@style/artikel_image"
@@ -37,6 +37,7 @@
             <View style="@style/abstandslinie" />
 
             <LinearLayout style="@style/linearlayout_style">
+
                 <ImageView
                     android:id="@+id/imageView2"
                     style="@style/artikel_image"
