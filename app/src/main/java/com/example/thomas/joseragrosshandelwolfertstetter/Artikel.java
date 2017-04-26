@@ -23,7 +23,6 @@ import java.util.List;
 
 public class Artikel extends AppCompatActivity {
 
-    private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
     private int[] tabIcons = {
@@ -37,9 +36,6 @@ public class Artikel extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_artikel);
-
-        //toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
 
         setTitle("Artikel");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -114,5 +110,6 @@ public class Artikel extends AppCompatActivity {
         public void addFragment(Fragment fragment) {
             mFragmentList.add(fragment);
         }
+
     }
 }
