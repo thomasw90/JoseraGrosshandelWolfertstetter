@@ -1,10 +1,17 @@
 package com.example.thomas.joseragrosshandelwolfertstetter;
 
+import android.content.SharedPreferences;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.view.View;
 import android.content.Intent;
+import android.widget.CheckBox;
+
+import com.example.thomas.joseragrosshandelwolfertstetter.UserManagement.Login;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 starteBestellen();
             }
         });
+
     }
 
     private void starteDatenAendern()

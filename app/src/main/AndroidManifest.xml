@@ -9,19 +9,25 @@
         android:roundIcon="@mipmap/josera_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".MainActivity">
+
+        </activity>
+
+        <activity android:name=".UserManagement.Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".Daten" />
         <activity android:name=".Artikel" />
         <activity android:name=".Bestellen" />
         <activity android:name=".pro_spezial" />
         <activity android:name=".frumi_plus" />
-        <activity android:name=".test"></activity>
+        <activity android:name=".UserManagement.SignUp" />
+        <activity android:name=".UserManagement.ForgotPassword"></activity>
     </application>
 
 </manifest>

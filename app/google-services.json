@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "382804506402",
+    "firebase_url": "https://joserawolfertstetter.firebaseio.com",
+    "project_id": "joserawolfertstetter",
+    "storage_bucket": "joserawolfertstetter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382804506402:android:20a55b46b1608f30",
+        "android_client_info": {
+          "package_name": "com.example.thomas.joseragrosshandelwolfertstetter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382804506402-e4kl0p0lj0s3emhk59064ugml66i0m4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thomas.joseragrosshandelwolfertstetter",
+            "certificate_hash": "b06f1c192d4d76c37669db6c74247a9ef0cfc138"
+          }
+        },
+        {
+          "client_id": "382804506402-0l1q7sgg7ebnteiboqda5qc4uk6lbf89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFzrXwuCukA9Htf9ZA6M2-hCQIJApKres"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382804506402-0l1q7sgg7ebnteiboqda5qc4uk6lbf89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -38,8 +38,7 @@
         android:layout_marginRight="5dp"
         android:backgroundTint="#FFFFFF"
         android:inputType="textPersonName"
-        android:textColor="#FFFFFF"
-        android:theme="@android:style/Theme.Holo" />
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/textNachname"
@@ -61,8 +60,7 @@
         android:layout_marginRight="5dp"
         android:backgroundTint="#FFFFFF"
         android:inputType="textPersonName"
-        android:textColor="#FFFFFF"
-        android:theme="@android:style/Theme.Holo" />
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/textStrasse"
@@ -84,8 +82,7 @@
         android:layout_marginRight="5dp"
         android:backgroundTint="#FFFFFF"
         android:inputType="textPersonName"
-        android:textColor="#FFFFFF"
-        android:theme="@android:style/Theme.Holo" />
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/textPlz"
@@ -107,8 +104,7 @@
         android:layout_marginRight="5dp"
         android:backgroundTint="#FFFFFF"
         android:inputType="numberSigned"
-        android:textColor="#FFFFFF"
-        android:theme="@android:style/Theme.Holo" />
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/textTelNr"
@@ -130,8 +126,7 @@
         android:layout_marginRight="5dp"
         android:backgroundTint="#FFFFFF"
         android:inputType="phone"
-        android:textColor="#FFFFFF"
-        android:theme="@android:style/Theme.Holo" />
+        android:textColor="#FFFFFF"/>
 
     <Button
         android:id="@+id/buttonZurueck"
