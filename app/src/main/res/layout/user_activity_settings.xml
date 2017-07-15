@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@color/windowBackground"
+    android:orientation="vertical"
+    tools:context="com.example.thomas.joseragrosshandelwolfertstetter.UserManagement.Settings">
+
+    <Button
+        android:id="@+id/personalData"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/orange"
+        android:text="Persönliche Daten ändern"
+        android:textColor="@color/braun" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:background="@color/orange"
+        android:text="Email ändern"
+        android:textColor="@color/braun" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+        android:background="@color/orange"
+        android:text="Passwort ändern"
+        android:textColor="@color/braun" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="60dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:text="Benutzer löschen"
+        android:textColor="@color/braun" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:text="Abmelden"
+        android:textColor="@color/braun" />
+
+</LinearLayout>

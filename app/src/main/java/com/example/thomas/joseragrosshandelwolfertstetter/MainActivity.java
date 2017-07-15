@@ -1,17 +1,13 @@
 package com.example.thomas.joseragrosshandelwolfertstetter;
 
-import android.content.SharedPreferences;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.view.View;
 import android.content.Intent;
-import android.widget.CheckBox;
 
-import com.example.thomas.joseragrosshandelwolfertstetter.UserManagement.Login;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
+import com.example.thomas.joseragrosshandelwolfertstetter.UserManagement.PersonalData;
+import com.example.thomas.joseragrosshandelwolfertstetter.UserManagement.Settings;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,12 +16,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button datenAendernBtn = (Button) findViewById(R.id.datenAendern);
+        Button datenAendernBtn = (Button) findViewById(R.id.settings);
         datenAendernBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view)
             {
-                starteDatenAendern();
+                openSettings();
             }
         });
 
@@ -49,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void starteDatenAendern()
+    private void openSettings()
     {
-        Intent intent = new Intent(this, Daten.class);
+        Intent intent = new Intent(this, Settings.class);
         startActivity(intent);
     }
 

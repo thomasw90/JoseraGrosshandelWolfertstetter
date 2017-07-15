@@ -83,6 +83,15 @@ public class Login extends AppCompatActivity {
                 startActivity(new Intent(Login.this, SignUp.class));
             }
         });
+
+        TextView passwortVergessen = (TextView) findViewById(R.id.passwortVergessen);
+        passwortVergessen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                startActivity(new Intent(Login.this, ForgotPassword.class));
+            }
+        });
     }
 
     private void login(){

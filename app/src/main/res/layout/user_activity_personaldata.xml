@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    tools:context="com.example.thomas.joseragrosshandelwolfertstetter.UserManagement.PersonalData">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/textPrename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vorname:"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/inputPrename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nachname:"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textStreet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Straße:"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/inputStreet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textZipcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plz:"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/inputZipcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:inputType="numberSigned"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textPhonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tel-Nr."
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/inputPhonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:inputType="phone"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/orange"
+        android:text="Speichern"
+        android:textColor="@color/braun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/orange"
+        android:text="Zurück"
+        android:textColor="@color/braun"
+        app:layout_constraintBottom_toTopOf="@+id/btnSave"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

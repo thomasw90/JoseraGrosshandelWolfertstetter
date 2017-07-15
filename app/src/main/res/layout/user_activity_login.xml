@@ -30,9 +30,9 @@
             android:id="@+id/emailLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/textColorPrimary"
             android:inputType="textPersonName"
-            android:textColor="@color/textColorPrimary" />
+            android:textColor="@color/textColorPrimary"
+            app:backgroundTint="@color/textColorPrimary"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -45,9 +45,9 @@
             android:id="@+id/passwortLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/textColorPrimary"
             android:inputType="textPassword"
-            android:textColor="@color/textColorPrimary" />
+            android:textColor="@color/textColorPrimary"
+            app:backgroundTint="@color/textColorPrimary"/>
 
         <CheckBox
             android:id="@+id/checkboxLogin"
